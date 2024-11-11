@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>add two numbers</title>
+
+</head>
+
+<body>
+
+  <div>
+
+    <form>
+
+      <div><label for="firstNumber">first number</label>
+
+         <input type="text" id="firstNumber"/></div>
+
+      <div><label for="second number">second number</label>
+
+        <input type="text" id="second number"/></div>
+
+      <div><label for="sum number">sum</label>
+
+        <input type="text" id="sum number"/></div>
+
+      <button type="button" onclick="doAdd();">Add</button>
+
+    </form>
+
+  </div>
+
+  <script type="text/javascript">
+
+    function dodd() {
+
+      let first = parseInt(document.getElementById("first number").value);
+
+      let second = parseInt(document.getElementById("second number").value);
+
+      let sum = first + second;
+
+      document.getElementById("sum number").value = sum;
+
+    }
+  </script>
+</body>
+</html>
